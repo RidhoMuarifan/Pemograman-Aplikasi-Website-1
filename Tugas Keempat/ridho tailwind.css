@@ -32,6 +32,31 @@
   transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 
+.khusus-foto-7 .photo-img{
+    width: 100%;
+    height: auto;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 
+                       75% 100%, 25% 100%, 0% 50%);
+}
+
+.khusus-foto-9 .photo-img{
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.khusus-foto-11 .photo-img{
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+}
+
+.khusus-foto-12 .photo-img{
+    width: 100%;
+    height: auto;
+    clip-path: polygon(50% 0%, 100% 35%, 80% 100%, 50% 75%, 20% 100%, 0% 35%);
+}
+
 .photo-card:hover {
   transform: translateY(-4px);
 }
