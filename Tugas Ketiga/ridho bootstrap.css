@@ -1,0 +1,109 @@
+.wadah-fluid {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.baris {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.kolom-samping {
+  background-color: #2c2c2c;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.lingkaran {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.teks-putih {
+  color: #ffffff;
+}
+
+.teks-putih-muda {
+  color: #cfcfcf;
+}
+
+.tengah {
+  text-align: center;
+}
+
+.tentang, .kontak, .sosmed {
+  margin-bottom: 1.5rem;
+}
+
+.tanpa-garis {
+  text-decoration: none;
+}
+
+.kolom-konten {
+  background-color: #fff;
+  padding: 20px;
+}
+
+.judul-bagian {
+  font-weight: bold;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 0.3rem;
+  margin-bottom: 1rem;
+}
+
+.pengalaman, .pendidikan {
+  border-left: 3px solid #2c2c2c;
+  padding-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+.posisi {
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+  color: #6c757d;
+}
+
+.keterangan {
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
+
+.daftar-inline {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item-inline {
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.kolom.setengah {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.kolom.penuh {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+@media (max-width: 767.98px) {
+  .kolom-samping {
+    text-align: center;
+  }
+  .kolom-samping h2 {
+    margin-top: 1rem;
+  }
+  .lingkaran {
+    margin: 0 auto;
+  }
+  .pengalaman, .pendidikan {
+    margin-bottom: 1.5rem;
+  }
+}
